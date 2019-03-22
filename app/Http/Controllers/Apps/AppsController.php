@@ -14,7 +14,7 @@ class AppsController extends Controller
 
     public function pass_portl(){
         $data=$_POST;
-        $url='http://pspt.lushishu.cn/pass_portll';
+        $url='http://psptt.lushishu.cn/pass_portll';
         $ch=curl_init($url);
         curl_setopt($ch,CURLOPT_RETURNTRANSFER,1);
         curl_setopt($ch,CURLOPT_POST,1);
