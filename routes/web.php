@@ -196,5 +196,6 @@ Route::get('/weixin/jssdk/test','Weixin\WeixinController@jssdkTest');//测试
 
 Route::resource('/res',Api\ResController::class);
 
-Route::get('/pass_port','Passpt\PassController@passPort');
+
+Route::get('/pass_portl','Apps\AppsController@passPortl');
 
