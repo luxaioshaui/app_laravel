@@ -11,7 +11,9 @@ use Illuminate\Support\Facades\Redis;
 class AppsController extends Controller
 {
     //
-
+    public function zhuce(){
+        echo 'okokkokok';
+    }
     public function pass_portl(){
         $data=$_POST;
         $url='http://psptt.lushishu.cn/pass_portll';
