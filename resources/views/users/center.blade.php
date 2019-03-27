@@ -82,6 +82,8 @@
                     个人中心
                 </div>
 
+                    <a href="http://psptt.lushishu.cn/login/weblogin">退出</a>
+
             </div>
         </div>
     </body>

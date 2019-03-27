@@ -202,3 +202,4 @@ Route::resource('/res',Api\ResController::class);
 //URL1
 Route::get('/pass_portl','Apps\AppsController@passPortl');
 
+Route::any('/post_test','Apps\AppsController@post_test');

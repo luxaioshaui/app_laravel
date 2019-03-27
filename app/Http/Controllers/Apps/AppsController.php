@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\Redis;
 class AppsController extends Controller
 {
     //
-    public function pass_portl(){
+    public function passPortl(){
         $data=$_POST;
         $url='http://psptt.lushishu.cn/pass_portll';
         $ch=curl_init($url);
@@ -23,5 +23,8 @@ class AppsController extends Controller
         $resl=json_decode($res,true);
         return $resl;
     }
-
+    public function post_test(){
+        $arr=$_POST;
+        var_dump($arr);exit;
+    }
 }
