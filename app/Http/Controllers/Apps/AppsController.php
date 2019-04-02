@@ -12,7 +12,7 @@ class AppsController extends Controller
 {
 
     public function user_request(){
-        view('users.user_request');
+        return view('users.user_request');
     }
 
 
