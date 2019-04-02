@@ -10,6 +10,28 @@ use Illuminate\Support\Facades\Redis;
 
 class AppsController extends Controller
 {
+
+    public function user_request(){
+        view('users.user_request');
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     //
     public function passPortl(){
         $data=$_POST;

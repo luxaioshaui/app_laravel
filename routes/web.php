@@ -203,3 +203,7 @@ Route::resource('/res',Api\ResController::class);
 Route::get('/pass_portl','Apps\AppsController@passPortl');
 
 Route::any('/post_test','Apps\AppsController@post_test');
+
+
+//用户申请
+Route::get('/user_request','Apps\AppsController@user_request');
